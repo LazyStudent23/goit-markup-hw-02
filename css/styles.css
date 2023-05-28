@@ -76,7 +76,6 @@ body {
     line-height: 1.5;
     color: var(--primary-color);
     letter-spacing: 0.02em;
-    color: var(--secondary-color);
 }
 
 .navigation-link:hover,
@@ -144,13 +143,13 @@ body {
     font-size: var(--secondary-text-size);
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .benefits-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .doing-title {
@@ -222,14 +221,17 @@ body {
 
 .portfolio-item-title {
     font-size: var(--secondary-text-size);
+    font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--secondary-color);
 }
 
 .portfolio-item-text {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 /* FOOTER */
