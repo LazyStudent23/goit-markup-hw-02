@@ -19,6 +19,7 @@
     --hero-title-text: 56px;
     --member-card-color: #FFFFFF;
     --portfolio-card-color: #FFFFFF;
+    --page-background-color: #FFFFFF;
 }
 
 body {
@@ -26,6 +27,7 @@ body {
     font-size: var(--main-text-size);
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    background-color: var(--page-background-color);
 }
 
 .link {
@@ -74,6 +76,7 @@ body {
     line-height: 1.5;
     color: var(--primary-color);
     letter-spacing: 0.02em;
+    color: var(--secondary-color);
 }
 
 .navigation-link:hover,
@@ -105,7 +108,7 @@ body {
 
 .hero {
     text-align: center;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .hero-title {
@@ -132,6 +135,10 @@ body {
     background-color: var(--hover-focus-color);
 }
 
+.benefits-title {
+    color: var(--secondary-color);
+}
+
 .benefits-subtitle {
     font-weight: 500;
     font-size: var(--secondary-text-size);
@@ -143,7 +150,7 @@ body {
 .benefits-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .doing-title {
@@ -167,7 +174,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .member-card {
@@ -180,13 +187,13 @@ body {
     font-size: var(--secondary-text-size);
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .member-position {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .button-navigation {
@@ -228,7 +235,7 @@ body {
 /* FOOTER */
 
 .footer {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .logo-footer {
