@@ -202,8 +202,6 @@ body {
     letter-spacing: 0.04em;
     color: var(--logo-color);
     background-color: var(--footer-text-color);
-    border: 1px solid #E7E9FC;
-        border-radius: 4px;
     cursor: pointer;
 }
 
