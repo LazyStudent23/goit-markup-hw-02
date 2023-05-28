@@ -178,7 +178,6 @@ body {
 
 .member-card {
     background: var(--member-card-color);
-        border-radius: 0px 0px 4px 4px;
 }
 
 .team-member {
