@@ -25,7 +25,6 @@
 body {
     font-family: var(--primary-font), sans-serif;
     font-size: var(--main-text-size);
-    letter-spacing: 0.02em;
     color: var(--primary-color);
     background-color: var(--page-background-color);
 }
@@ -88,7 +87,7 @@ body {
 }
 
 .navigation-address {
-    font-style: normal;
+
 }
 
 .address-menu > li {
@@ -98,9 +97,7 @@ body {
 .address-menu-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
     color: var(--primary-color);
-
 }
 
 /* MAIN */
@@ -149,7 +146,6 @@ body {
 .benefits-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-color);
 }
 
 .doing-title {
@@ -191,7 +187,6 @@ body {
 .member-position {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-color);
 }
 
 .button-navigation {
@@ -251,4 +246,5 @@ body {
 .footer-text {
     line-height: 1.5;
     color: var(--footer-text-color);
+    letter-spacing: 0.02em;
 }
